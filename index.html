@@ -3,132 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tap here</title>
-  <style>
-  
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Arial', sans-serif;
-      background: #f0f8ff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-      color: #333;
-    }
-
-    .content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    h1 {
-      font-size: 2.5em;
-      color: #ff1493;
-      margin-bottom: 20px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-      animation: fadeIn 2s ease-in-out;
-    }
-
-
-    a {
-      display: inline-block;
-      padding: 15px 30px;
-      background-color: #ff1493;
-      color: #fff;
-      font-size: 1.2em;
-      text-decoration: none;
-      border-radius: 30px;
-      transition: all 0.3s ease-in-out;
-      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-      position: relative;
-      margin-top: 20px;
-    }
-
-    a:hover {
-      background-color: #ff69b4;
-      transform: scale(1.1);
-      box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
-    }
-
- 
-    @keyframes fadeIn {
-      0% {
-        opacity: 0;
-        transform: translateY(-20px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-   
-    .emoji {
-      font-size: 2.5em; /* Tamaño grande del emoji */
-      margin-bottom: 10px; /* Separación entre el emoji y el texto */
-      animation: bounce 1s infinite alternate;
-    }
-
-    /* Animación de rebote para el emoji */
-    @keyframes bounce {
-      0% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-10px);
-      }
-      100% {
-        transform: translateY(0);
-      }
-    }
-
-    /* Animación de pulso para el icono dentro del enlace */
-    .pulse {
-      animation: pulse 1.5s infinite;
-      position: absolute;
-      bottom: -10px;
-      font-size: 24px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
-    @keyframes pulse {
-      0% {
-        transform: scale(1);
-        opacity: 1;
-      }
-      50% {
-        transform: scale(1.2);
-        opacity: 0.7;
-      }
-      100% {
-        transform: scale(1);
-        opacity: 1;
-      }
-    }
-
-  </style>
+  <title>Tap</title>
 </head>
 <body>
-  <div class="content">
-    <h1>Welcome to my page, daddy! 💕</h1>
-    <!-- Emoji encima del enlace -->
-    <div class="emoji">💕</div>
-    <a href="https://t.me/+tfS1kdx0CZFiOTEx" target="_blank">
-      Tap to join my channel
-      <span class="pulse">👇</span>
-    </a>
-  </div>
-
   <script>
-  
     setTimeout(function() {
       window.location.href = "https://t.me/+tfS1kdx0CZFiOTEx";
-    }, 200);  
+    }, 5);
   </script>
 </body>
 </html>
